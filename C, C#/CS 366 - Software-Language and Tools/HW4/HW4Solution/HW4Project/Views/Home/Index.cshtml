@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center" style="background-color: lightgrey">
+    <fieldset>
+        <h1 class="display-4">CS366 Homework 4</h1>
+        <h1 class="display-4"><font color="grey">2021</font></h1>
+        <p>A couple forms and some simple server-side logic -- learning the basics of GET, POST, form data and parameter and model binding. Doing it all with APS.NET MVC Core.</p>
+    </fieldset>
+    
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12"><table>
+            <tbody>
+                <tr>
+                    <th><h1 class="display-4"><font size="5"><b>RGB Color</b></font></h1></th>
+                    <th><h1 class="display-4"><font size="5"><b>Color Interpolation</b></font></h1></th>
+                </tr>
+                <tr>
+                    <td><p>Want to know what a particular RGB color looks like? How about it's web format?
+                        Here you go. Uses query strings to send form data to the server, which reads them in the Request object. It then
+                        performs the calculation and formats the result in a view to return to you.</p>
+                        <button class="btn btn-primary"><a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="RGB_Color">Try it out >></a></button> 
+                        </td>
+                    <td><p>Typical online color choosers are way too useful. We wanted something fun and completely useless.
+                        This form POST's the data to the server and uses parameter binding to make it easy.</p>
+                        <button class="btn btn-primary"><a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Color_Interpolator">Check it out >></a></button> 
+                        </td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+@using System;
+@using System.Collections.Generic;
+@model HW1.ViewModels.TeamsVM;
+@{
+    ViewData["Title"] = "HW1";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        @{
+            var allMembers = Model.splitMemberNames();
+            var randomMembers = Model.randomizeMembersNames(allMembers);
+            var teamsWithMembers = Model.makeRandomTeams(Model.TeamSize, randomMembers);
+        }
+        <form>
+            <div class="myRow">
+                @for (var i = 1; i < Model.TeamCount + 1; i++)
+                {
+                    <div class="column">
+                        <div class = myDiv>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th><h2>Team @i</h2></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach(var j in teamsWithMembers[i-1])
+                                    {
+                                        <tr><td>@j</td></tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                }
+            </div>
+            <input type="submit" value="Assign Animal Names" class="button">
+        </form>   
+    </div>
+</div>
+<script>
+    var teamNames = '@Model.TeamNames'.split("&#xD;");
+    const form = document.querySelector('form');
+    const tbody = document.querySelectorAll('thead');
+
+    function getRandomInt() 
+    {
+        return Math.floor(Math.random() * teamNames.length);
+    }
+
+    function assignNames(e)
+    {
+        e.preventDefault();
+        for(var i = 0; i < '@Model.TeamCount'; i++)
+        {
+            tbody[i].innerHTML = '<tr><th><h2>'+ teamNames[getRandomInt()] + '</h2></th></tr>';
+        }
+    }
+    form.addEventListener('submit', assignNames);
+</script>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "KGCY/fncISvq0z2P8jUPZaTtn6R49h820bewza1bcJw36aZKDZYb56eJW9xcPJyNvw+lxwV8O7CPVrl50rtF6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-01\\RecommenderApp\\RecommenderApp\\RecommenderApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

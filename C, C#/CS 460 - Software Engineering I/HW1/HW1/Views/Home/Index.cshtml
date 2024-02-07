@@ -1,0 +1,32 @@
+﻿@using System;
+@using System.Collections.Generic;
+@model HW1.ViewModels.TeamsVM;
+@{
+    ViewData["Title"] = "HW1";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Team Generator</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Teams" method="post">
+            <div class="row">
+                <label for="MemberNames" class="col-sm-4 col-form-label">Enter names:</label>
+                <div class="col-sm-6">
+                    <textarea asp-for="MemberNames" rows="12" cols="100"></textarea>
+                    <span asp-validation-for="MemberNames" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <label for="TeamSize" class="col-sm-4 col-form-label">Team Size:</label>
+                <div class="col-sm-6">
+                    <input asp-for="TeamSize" type="number" class="form-control" min="2" max="10"/>
+                    <span asp-validation-for="TeamSize" class="text-danger"></span>
+                </div>
+            </div>
+            <input type="submit" value="Make Teams!" class="btn btn-primary">
+        </form>
+    </div>
+</div>

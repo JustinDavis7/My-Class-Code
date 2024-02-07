@@ -1,0 +1,34 @@
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\bin\Debug\netcoreapp3.1\WarServer.exe
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\bin\Debug\netcoreapp3.1\WarServer.deps.json
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\bin\Debug\netcoreapp3.1\WarServer.runtimeconfig.json
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\bin\Debug\netcoreapp3.1\WarServer.runtimeconfig.dev.json
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\bin\Debug\netcoreapp3.1\WarServer.dll
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\bin\Debug\netcoreapp3.1\WarServer.pdb
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\obj\Debug\netcoreapp3.1\WarServer.csprojAssemblyReference.cache
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\obj\Debug\netcoreapp3.1\WarServer.AssemblyInfoInputs.cache
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\obj\Debug\netcoreapp3.1\WarServer.AssemblyInfo.cs
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\obj\Debug\netcoreapp3.1\WarServer.csproj.CoreCompileInputs.cache
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\obj\Debug\netcoreapp3.1\WarServer.dll
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\obj\Debug\netcoreapp3.1\WarServer.pdb
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarServer\obj\Debug\netcoreapp3.1\WarServer.genruntimeconfig.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\bin\Debug\netcoreapp3.1\WarServer.exe
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\bin\Debug\netcoreapp3.1\WarServer.deps.json
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\bin\Debug\netcoreapp3.1\WarServer.runtimeconfig.json
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\bin\Debug\netcoreapp3.1\WarServer.runtimeconfig.dev.json
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\bin\Debug\netcoreapp3.1\WarServer.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\bin\Debug\netcoreapp3.1\WarServer.pdb
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.csproj.AssemblyReference.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.AssemblyInfoInputs.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.AssemblyInfo.cs
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.csproj.CoreCompileInputs.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.pdb
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.genruntimeconfig.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Weekly Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.csproj.AssemblyReference.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Weekly Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Weekly Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.AssemblyInfoInputs.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Weekly Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.AssemblyInfo.cs
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Weekly Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.csproj.CoreCompileInputs.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Weekly Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Weekly Challenge #5\WarServer\obj\Debug\netcoreapp3.1\WarServer.pdb

@@ -1,0 +1,130 @@
+@{
+    ViewData["Title"] = "Itinerary";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <title>Itinerary</title>
+    <p>Mouse over the attraction name to see a small picture of it! You can also click on them to see a wiki page about it.</p>
+</head>
+<div class="container1">
+    <div class="row">
+        <div class="col-sm-6">
+            <table id ="table1" class="t1" padding-bottom: 25px>
+                <thead>
+                    <tr>
+                        <th>Day|</th>
+                        <th>Attraction Name|</th>
+                        <th>Location|</th>
+                    </tr> 
+                </thead>
+                <tbody> 
+                    <tr>
+                        <th>1</th>             
+                        <td><div class="TokyoTower"><a href="https://en.wikipedia.org/wiki/Tokyo_Tower">Tokyo Tower</div></td>
+                        <td>Minato, Tokyo</td>
+                    </tr> 
+                    <tr>
+                        <th>2</th>
+                        <td><div class="Shinjuku"><a href="https://en.wikipedia.org/wiki/Shinjuku_Gyo-en">Shinjuku Gyo-en National Garden</div></td>
+                        <td>Shinjuku and Shibuya, Tokyo</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td><div class="ImperialPalace"><a href="https://en.wikipedia.org/wiki/Tokyo_Imperial_Palace">Tokyo Imperial Palace</div></td>
+                        <td>Chiyoda, Tokyo</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td><div class="OsakaAquarium"><a href="https://en.wikipedia.org/wiki/Osaka_Aquarium_Kaiyukan">Osaka Aquarium Kaiyukan</div></td>
+                        <td>Osaka, Japan</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td><div class="MountFuji"><a href="https://en.wikipedia.org/wiki/Mount_Fuji">Mount Fuji</div></td>
+                        <td>Fuji-Hakone-Izu National Park</td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td><div class="HiroshimaCastle"><a href="https://en.wikipedia.org/wiki/Hiroshima_Castle">Hiroshima Castle</div></td>
+                        <td>Hiroshima Japan</td>
+                    </tr>
+                    <tr>
+                        <th>7</th>
+                        <td><div class="MeijiShrine"><a href="https://en.wikipedia.org/wiki/Meiji_Shrine">Meiji Shrine</div></td>
+                        <td>Shibuya, Tokyo</td>
+                    </tr>
+                    <tr>
+                        <th>8</th>
+                        <td><div class="TokyoMuseum"><a href="https://en.wikipedia.org/wiki/Edo-Tokyo_Museum">Edo-Tokyo Museum</div></td>
+                        <td>Sumida, Tokyo</td>
+                    </tr>
+                    <tr>
+                        <th>9</th>
+                        <td><div class="SwordMuseum"><a href="https://en.wikipedia.org/wiki/Japanese_Sword_Museum">Japanese Sword Museum</div></td>
+                        <td>Sumida-ku, Tokyo</td>
+                    </tr>
+                    <tr>
+                        <th>10</th>
+                        <td><div class="TaroOkamoto"><a href="https://en.wikipedia.org/wiki/Taro_Okamoto_Museum_of_Art">Taro Okamoto Museum of Art</div></td>
+                        <td>Tama-ku, Kawasaki, Kanagawa</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td><br></td>
+                </tfoot>
+            </table>
+        </div>
+        <div class="col-sm-6">
+            <div class="Tower">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/TaroTokyo20110213-TokyoTower-01.jpg/800px-TaroTokyo20110213-TokyoTower-01.jpg" 
+                height = 300px; width = 250px class="Tower1"/>
+            </div>
+            <div class="Shin">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG/1920px-Shinjuku_Gyoen_National_Garden_-_sakura_3.JPG" 
+                height = 300px; width = 500px class="Shin" style="display: none;"/>
+            </div>
+            <div class="Palace">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Seimon_Ishibashi.JPG/1280px-Seimon_Ishibashi.JPG" 
+                height = 300px; width = 500px class="Palace" style="display: none;"/>
+            </div>
+            <div class="Aquarium">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kaiyukan.JPG/1280px-Kaiyukan.JPG" 
+                height = 300px; width = 500px class="Aquarium" style="display: none;"/>
+            </div>
+            <div class="Fuji">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/080103_hakkai_fuji.jpg/1280px-080103_hakkai_fuji.jpg" 
+                height = 300px; width = 500px class="Fuji" style="display: none;"/>
+            </div>
+            <div class="Castle">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Keep_tower%2C_Hiroshima_Castle%2C_Southwest_remote_view_20190417_1.jpg/800px-Keep_tower%2C_Hiroshima_Castle%2C_Southwest_remote_view_20190417_1.jpg" 
+                height = 300px; width = 500px class="Castle" style="display: none;"/>
+            </div>
+            <div class="Meiji">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Courtyard_of_Meiji_Shrine_20190717.jpg/1280px-Courtyard_of_Meiji_Shrine_20190717.jpg" 
+                height = 300px; width = 500px class="Meiji" style="display: none;"/>
+            </div>
+            <div class="Museum">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Edo-Tokyo_Museum.jpg/1280px-Edo-Tokyo_Museum.jpg" 
+                height = 300px; width = 500px class="Museum" style="display: none;"/>
+            </div>
+            <div class="Sword">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Japanese_Sword_Museum-1.jpg/1280px-Japanese_Sword_Museum-1.jpg" 
+                height = 300px; width = 500px class="Sword" style="display: none;"/>
+            </div>
+            <div class="Taro">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Taro_Okamoto_Museum_of_Art_-_outside_-_march_11_2017.jpg/1920px-Taro_Okamoto_Museum_of_Art_-_outside_-_march_11_2017.jpg" 
+                height = 300px; width = 500px class="Taro" style="display: none;"/>
+            </div>
+        </div>
+        <br><br>
+        <div>
+            <img src="https://th.bing.com/th/id/Rdb46f28475502077725ff797ba1422b8?rik=h90d6ZLm%2f129Ng&pid=ImgRaw" height = 850px; width = 1150px; style = "center">
+        </div>
+    </div>
+</div>

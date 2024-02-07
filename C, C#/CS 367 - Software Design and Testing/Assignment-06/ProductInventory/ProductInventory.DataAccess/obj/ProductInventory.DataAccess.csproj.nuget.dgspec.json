@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.DataAccess\\ProductInventory.DataAccess.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.DataAccess\\ProductInventory.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.DataAccess\\ProductInventory.DataAccess.csproj",
+        "projectName": "ProductInventory.DataAccess",
+        "projectPath": "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.DataAccess\\ProductInventory.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\strik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\strik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.Model\\ProductInventory.Model.csproj": {
+                "projectPath": "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.Model\\ProductInventory.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.14, 5.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.Model\\ProductInventory.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.Model\\ProductInventory.Model.csproj",
+        "projectName": "ProductInventory.Model",
+        "projectPath": "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.Model\\ProductInventory.Model.csproj",
+        "packagesPath": "C:\\Users\\strik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\strik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

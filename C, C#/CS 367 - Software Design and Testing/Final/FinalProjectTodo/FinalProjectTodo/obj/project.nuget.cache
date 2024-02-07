@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BBq6RElgu5ndBTc3SHJ9TlPsgfVKot9FCBatp1x8jP293hhBM2WXvq45HDIIoyKDQ+YFAVYyEjJTz6/8x7YNdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Justin\\Desktop\\C, C#\\CS 367 - Software Design and Testing\\Final\\FinalProjectTodo\\FinalProjectTodo\\FinalProjectTodo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Justin\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Justin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Justin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Justin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

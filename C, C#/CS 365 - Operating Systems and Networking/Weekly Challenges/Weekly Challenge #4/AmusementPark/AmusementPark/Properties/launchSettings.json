@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AmusementPark": {
+      "commandName": "Project",
+      "commandLineArgs": "3 10 30 70"
+    }
+  }
+}

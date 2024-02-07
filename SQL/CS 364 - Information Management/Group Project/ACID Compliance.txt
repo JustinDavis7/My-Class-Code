@@ -1,0 +1,5 @@
+*Database transactions are usually executed in an ACID (Atomic, Consistent, Isolated, and Durable) compliant manner. This ensures that data changes
+	in reliable and high-integrity ways. 
+	-In the event of an error or a power failure, the data can always be trusted thanks to this compliance.
+*Data Warehouses are focused on reading instead of writing/modifying, so they don't comply with ACID as well. 
+	-Redshift, and Panoply ensure their queries are ACID compliant where possible. This is always the case when MySQL and PostgreSQL are in use.

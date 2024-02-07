@@ -1,0 +1,5 @@
+﻿1;Dawn Dish Soap;3.49
+2;Totino's Pizza Rolls;4.39
+3;Purina Dog Chow;19.99
+4;Meow Mix Cat Food;9.99
+5;Jiffy Peanut Butter;3.29

@@ -1,0 +1,12 @@
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\bin\Debug\net5.0\ProductInventory.Model.deps.json
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\bin\Debug\net5.0\ProductInventory.Model.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\bin\Debug\net5.0\ref\ProductInventory.Model.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\bin\Debug\net5.0\ProductInventory.Model.pdb
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\obj\Debug\net5.0\ProductInventory.Model.csprojAssemblyReference.cache
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\obj\Debug\net5.0\ProductInventory.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\obj\Debug\net5.0\ProductInventory.Model.AssemblyInfoInputs.cache
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\obj\Debug\net5.0\ProductInventory.Model.AssemblyInfo.cs
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\obj\Debug\net5.0\ProductInventory.Model.csproj.CoreCompileInputs.cache
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\obj\Debug\net5.0\ProductInventory.Model.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\obj\Debug\net5.0\ref\ProductInventory.Model.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-06\ProductInventory\ProductInventory.Model\obj\Debug\net5.0\ProductInventory.Model.pdb

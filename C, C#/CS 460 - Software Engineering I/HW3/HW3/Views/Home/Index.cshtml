@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container" style="padding-top: 40px">
+    <div class="row" style="background: #133337">
+        <div class="col-sm-3">
+            <img id="avatar" width="300" height="300">@*Will be filled in by JS*@
+        </div>
+        <div class="col-sm-6">
+            <div id="name">@*Will be filled in by JS*@</div>
+            <div id="userName" style=" font-size: 20px; color: white; padding-bottom: 10px">@*Will be filled in by JS*@</div>
+            <div id="email" style=" font-size: 20px; color: white; padding-bottom: 10px">@*Will be filled in by JS*@</div>
+            <div id="company" style=" font-size: 20px; color: white; padding-bottom: 10px">@*Will be filled in by JS*@</div>
+            <div id="location" style=" font-size: 20px; color: white; padding-bottom: 10px">@*Will be filled in by JS*@</div>
+        </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <ul id="repoName">
+                <li style="padding-top: 5px; font-size: 40px">Repositories</li>
+                @*Will be filled in by JS*@
+            </ul>
+        </div>
+        <div class="col-md-8" id="container2" style="display: none; padding-top: 10px; width: 65%">
+            <div class="row" style="background: #018945;">
+                <div class="col-md-6">
+                    <table id="repoOwner">
+                        <thead id="tableRepoName">@*Will be filled in by JS*@</thead>
+                        <tbody>
+                            <tr id="ownerName" style="color: white;">@*Will be filled in by JS*@</tr>
+                            <tr id="lastUpdate" style="color: white;">@*Will be filled in by JS*@</tr>
+                            <tr id="branches" style="color: white;">@*Will be filled in by JS*@</tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <img id="avatar2" align="right" width="180" height="180"> @*Will be filled in by JS*@
+                </div>
+            </div>
+            <div class="row">
+                <li style="font-size: 40px;">Commits</li>
+                <table id="commitsTable" class="table table-striped">
+                    <tr>
+                        <th style="width: 10%;">SHA</th>
+                        <th style="width: 20%;">Timestamp</th>
+                        <th style="width: 10%;">Committer</th>
+                        <th style="width: 60%;">Commit Message</th>
+                    </tr>@*Will be filled in by JS*@</table>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts 
+{
+    <script type="text/javascript" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="text/javascript" src="~/js/main.js"></script>
+}

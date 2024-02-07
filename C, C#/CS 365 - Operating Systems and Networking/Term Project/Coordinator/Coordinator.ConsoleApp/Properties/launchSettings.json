@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Coordinator.ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "-0 9 -3 4 -r 1000 -c 1"
+    }
+  }
+}

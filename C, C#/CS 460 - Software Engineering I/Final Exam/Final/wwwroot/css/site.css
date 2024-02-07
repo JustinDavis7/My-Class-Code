@@ -1,0 +1,44 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: "Poppins 500", "Noto Sans Regular", "Helvetica Neue", Arial, sans-serif;
+    margin-bottom: 60px;
+    background-color: rgb(238, 238, 228);
+}
+
+.navbar {
+    background-color: rgb(70, 0, 101);
+}
+
+.footer {
+    position: relative;
+    line-height: 20px;
+}
+
+.footer ul,
+p {
+    line-height: 20px;
+}
+
+.wcfont {
+    font-family: "Poppins 500", "Noto Sans Regular", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+}
+
+.card-custom {
+    border-radius: 10px;
+    background-color: white;
+}

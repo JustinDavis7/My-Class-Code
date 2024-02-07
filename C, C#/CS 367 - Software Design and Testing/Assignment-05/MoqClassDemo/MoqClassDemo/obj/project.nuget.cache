@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "3QESVA+mXhjojR5172ua5UCC0rlghI0mFl0EUwtfaolNWzP0uqQd8sh3U1Rkf3/RPhXxye06q1nq0Wvld++j0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-05\\MoqClassDemo\\MoqClassDemo\\MoqClassDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\strik\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,38 @@
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.exe
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.deps.json
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.runtimeconfig.json
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.runtimeconfig.dev.json
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\ref\FinalProjectTodo.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.pdb
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.csprojAssemblyReference.cache
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.AssemblyInfoInputs.cache
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.AssemblyInfo.cs
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.csproj.CoreCompileInputs.cache
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\ref\FinalProjectTodo.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.pdb
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.genruntimeconfig.cache
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\Models\CompletedList.cs
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\Models\Lists.cs
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\Models\Task.cs
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.exe
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\Models\CompletedList.cs
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\Models\Lists.cs
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\Models\Task.cs
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.deps.json
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.runtimeconfig.json
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.runtimeconfig.dev.json
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.dll
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\ref\FinalProjectTodo.dll
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\bin\Debug\net5.0\FinalProjectTodo.pdb
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.csprojAssemblyReference.cache
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.AssemblyInfoInputs.cache
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.AssemblyInfo.cs
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.csproj.CoreCompileInputs.cache
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.dll
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\ref\FinalProjectTodo.dll
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.pdb
+C:\Users\strik\Documents\Class Folders\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Final\FinalProjectTodo\FinalProjectTodo\obj\Debug\net5.0\FinalProjectTodo.genruntimeconfig.cache

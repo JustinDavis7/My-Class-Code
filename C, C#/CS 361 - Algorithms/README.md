@@ -1,0 +1,1 @@
+&ensp;&ensp;This was by far the hardest class I think any of us took at Western. Most students struggled quite a bit with this class, and expressed a great dislike of it. I actually enjoyed this class quite a bit. The Dijkstras lab, Lab-04, was by far the hardest of the group for me. Despite that, I really enjoyed the challenge of each of these labs.

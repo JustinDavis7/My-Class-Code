@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Week 7/Labs/Lab7_PyCharm/.idea/DataStructures.iml" filepath="$PROJECT_DIR$/../Week 7/Labs/Lab7_PyCharm/.idea/DataStructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Week 6/Labs/.idea/Labs.iml" filepath="$PROJECT_DIR$/../Week 6/Labs/.idea/Labs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Week 3/.idea/Week 3.iml" filepath="$PROJECT_DIR$/../Week 3/.idea/Week 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Week 4/.idea/Week 4.iml" filepath="$PROJECT_DIR$/../Week 4/.idea/Week 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Week 5/.idea/Week 5.iml" filepath="$PROJECT_DIR$/../Week 5/.idea/Week 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Week 8.iml" filepath="$PROJECT_DIR$/.idea/Week 8.iml" />
+    </modules>
+  </component>
+</project>

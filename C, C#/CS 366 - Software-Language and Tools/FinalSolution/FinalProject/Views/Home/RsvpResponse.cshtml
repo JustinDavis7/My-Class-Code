@@ -1,0 +1,30 @@
+@model FinalProject.Models.Responses
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thanks</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body class="text-center">
+    <div>
+        <h1>Thank you, @Model.FirstName!</h1>
+        @if (Model.WillAttend == true) {
+            @:It's great that you're coming. Let's make this a fun and exciting adventure for all!
+        } else {
+            @:Sorry to hear that you can't come, but thanks for letting us know. Maybe next time we will go to Hawaii to be basic and you will like that better?
+        }
+    </div>
+</body>
+<footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - FinalProject - <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        </div>
+</footer>
+</html>

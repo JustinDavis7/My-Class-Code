@@ -1,0 +1,27 @@
+h1{
+    color: yellow;
+    background-color: black;
+    font: sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+h2{
+    font-size: large;
+    color:rgb(255, 0, 0);
+    font-weight: lighter;
+}
+ul{
+    list-style-type: square;
+}
+h3{
+    font-size: 12px;
+    background-color: #000000;
+}
+.myDiv1{
+    border: 6px outset yellow;
+    text-align: center;
+}
+.myDiv2{
+    text-align: center;
+}

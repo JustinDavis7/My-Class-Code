@@ -1,0 +1,54 @@
+@model FinalProject.Models.Responses
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RsvpForm</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <h5 class="bg-primary text-white text-center m-2 p-2">RSVP</h5>
+    <form asp-action="RsvpForm" method="post" class="m-2">
+        <div asp-validation-summary="All"></div>
+        <div class="form-group">
+            <label asp-for="FirstName">Your first name:</label>
+            <input asp-for="FirstName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName">Your last name:</label>
+            <input asp-for="LastName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Id">Your employee ID:</label>
+            <input asp-for="Id" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Email">Your email:</label>
+            <input asp-for="Email" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Phone">Your phone:</label>
+            <input asp-for="Phone" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Will you attend?</label>
+            <select asp-for="WillAttend" class="form-control">
+                <option value="">Choose an option</option>
+                <option value="true">Yes, I'll be there</option>
+                <option value="false">No, I can't come</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit RSVP</button>
+    </form>
+</body>
+<footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - FinalProject - <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        </div>
+</footer>
+</html>

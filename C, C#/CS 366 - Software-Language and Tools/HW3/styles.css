@@ -1,0 +1,35 @@
+h1{
+    color: grey;
+    font-size: large;
+    font-weight: bolder;
+}
+
+h2{
+    color: grey;
+    max-width: 400px;
+}
+.regularForm{
+    width: 50%;
+    min-width: 300px;
+}
+fieldset{
+    line-height: 2em;
+}
+
+.error {
+    color: red;
+}
+
+span {
+    display: inline-block;
+    width: 150px;
+}
+
+fieldset{
+    background-color: grey;
+    width: 700px;
+}
+
+h3{
+    color: blue;
+}

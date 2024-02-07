@@ -1,0 +1,5 @@
+&ensp;&ensp;The big part of this class was the **Term Project: Coordinator**. There's quite a few extra files in here, but my own code is located in **Term Project\Coordinator.Lib\Coordinator.cs**. The other files that were used/created by me were the **JobQueue, JobState, and PriorityJob**.
+
+&ensp;&ensp;We were given a few different kinds of schedulers to choose from, and I went with the **Priority Based Scheduling Algorithm**. We were allowed to choose the language we wanted to use for this, and since my most experienced lanugage at the time was **C#**, I chose to use it for this project. This was actually a really fun project to work on, and I'm very happy with how it turned out. We were learning about multi-threaded programs and how to make use of threading and sleeping.
+
+&ensp;&ensp;The Weekly Challenges were mostly done in **C**, with the exception of the final challenge where we were to implement the game of War between two instances. These were a lot of fun to work on, and taught us about how operating systems and networking works.

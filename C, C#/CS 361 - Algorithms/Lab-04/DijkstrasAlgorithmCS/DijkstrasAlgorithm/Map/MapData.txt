@@ -1,0 +1,38 @@
+﻿Portland,Astoria,US-30,98,55
+Portland,Canon Beach,US-26,79.5,45
+Canon Beach,Seaside,HWY-101,8.9,55,45
+Seaside,Astoria,HWY-101,16.7,45
+Canon Beach,Tillamook,HWY-101,64.7,45
+Tillamook,Lincoln City,HWY-101,43.8,45
+Lincoln City,Newport,HWY-101,24.8,45
+Lincoln City,Salem,OR-18 OR22,58.3,55
+Salem,Portland,I-5,45,65
+Salem,Albany,I-5,25.6,65
+Albany,Corvallis,US-20,10.9,55
+Corvallis,Newport,US-20,48.8,45
+Albany,Eugene,I-5,44.5,65
+Salem,Bend,OR-22 US-20,132,55
+Bend,Klamath Falls,US-97,137,55
+Klamath Falls,Medford,OR-140,79.1,55
+Medford,Eugene,I-5,166,65
+Eugene,Florence,OR-126,61.3,55
+Florence,Waldport,HWY-101,33.8,55
+Waldport,Newport,HWY-101,15.7,45
+Medford,Ashland,I-5,13.4,65
+Salem,Portland,Pacific Hwy,50,55
+Portland,Ontario,I-84,376,70
+Salem,Ontario,US-20,390,55
+Salem,Ontario,US-26,395,55
+Corvallis,Monmouth,OR-99,20.4,55
+Monmouth,Salem,OR-99 OR-22,16.1,55
+Monmouth,Dallas,OR-99 Pacific Ave SE Monmouth Rd,8.6,45
+Monmouth,Dallas,Riddell SE Monmouth Rd,8.2,45
+Monmouth,Dallas,OR-99 Orrs Corner Rd, 9.3,45
+Dallas,Salem,OR-223 OR-22,15.1,45
+Dallas,Lincoln City,OR-22 OR-18,48.5,55
+Tillamook,Portland,OR-6 US-26,72.8,55
+Portland,Seattle,I-5,174,65
+Ontario,Boise,I-84,56.4,65
+Florence,Reedsport,HWY-101,22.4,45
+Reedsport,Brookings,HWY-101,134,45
+Brookings,Medford,US-199,125,55

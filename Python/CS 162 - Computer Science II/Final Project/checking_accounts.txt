@@ -1,0 +1,6 @@
+Jake,Grass,1,999-999-9999,jake@email.com,4444,20
+Jack,Green,1,323-798-5264,dennis@email.com,1236,12500
+Katie,Johnson,1,987-654-3210,tyler@email.com,4321,16200
+Andrew,Lent,1,513-789-5684,andrew@mail.com,1678,2036
+Pat,Patternson,1,503-445-7825,justin@email.com,0512,20000
+Hank,Smith,1,510-682-5463,sean@email.com,1234,30000

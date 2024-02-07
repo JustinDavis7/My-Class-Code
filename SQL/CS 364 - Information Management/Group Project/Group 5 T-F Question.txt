@@ -1,0 +1,1 @@
+A database is better suited for data analysis than a data warehouse. - Answer: False

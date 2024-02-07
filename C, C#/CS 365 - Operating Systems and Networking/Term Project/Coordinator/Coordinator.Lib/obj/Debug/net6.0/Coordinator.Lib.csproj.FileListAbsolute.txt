@@ -1,0 +1,13 @@
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\bin\Debug\net6.0\Coordinator.Lib.deps.json
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\bin\Debug\net6.0\Coordinator.Lib.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\bin\Debug\net6.0\Coordinator.Lib.pdb
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\obj\Debug\net6.0\Coordinator.Lib.csproj.AssemblyReference.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\obj\Debug\net6.0\Coordinator.Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\obj\Debug\net6.0\Coordinator.Lib.AssemblyInfoInputs.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\obj\Debug\net6.0\Coordinator.Lib.AssemblyInfo.cs
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\obj\Debug\net6.0\Coordinator.Lib.csproj.CoreCompileInputs.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\obj\Debug\net6.0\Coordinator.Lib.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\obj\Debug\net6.0\refint\Coordinator.Lib.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\obj\Debug\net6.0\Coordinator.Lib.pdb
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\obj\Debug\net6.0\ref\Coordinator.Lib.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Term Project\Coordinator\Coordinator.Lib\bin\Debug\net6.0\SchedulingJobs.txt

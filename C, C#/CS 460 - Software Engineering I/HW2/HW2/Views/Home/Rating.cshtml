@@ -1,0 +1,58 @@
+@model HW2.ViewModels.StatsVM
+@{
+    ViewData["Title"] = "HW2";
+}
+<h1>Top 10 Search Results </h1>
+<h2>Genre: @Model.genreChoice</h2>
+<h2>ShowType: @Model.pickedType*</h2> (1 for Tv Shows, 2 for Movies) <br>
+<table class ="table table-sm table-bordered" style="border:2px solid black;margin: 0 auto;">
+    <thead>
+        <tr>
+            <th class="myTh" style="width:5%">Rank</th>
+            <th class="myTh" style="width:30%">Movie Title</th>
+            <th class="myTh" style="width:10%">Relase Year</th>
+            <th class="myTh" style="width:10%">Age Certification</th>
+            <th class="myTh" style="width:10%">IMDB Rating</th>
+            <th class="myTh" style="width:20%">Directors</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int i = 1;
+            int j;
+            string temp;
+        }
+        @foreach(var show in @Model.highest10ShowsList)
+        {
+            j = 0;
+            temp = "";
+            <tr>
+                <td>@i</td>
+                @foreach(var item in show)
+                {
+                    if(j < 4)
+                    {
+                        <td>@item</td>
+                        j++;
+                    }
+                    else if (j == 4)
+                    {
+                        temp = item;
+                        j++;
+                    }
+                    else 
+                    {
+                        temp += ", " + item;
+                    }
+                    
+                }
+                <td>@temp</td>
+            </tr>
+            i++;
+        }
+    </tbody>
+</table>
+
+<footer>
+    <h5 style="position: fixed;bottom:0;left:0;right:0;height:70px;">*Defaults to 2 (Movies) if no option is selected.</h5>
+</footer>

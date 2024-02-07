@@ -1,0 +1,46 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.div1 {
+  width: 50%;
+  float: left;
+  padding: 2px;
+}
+
+.div2 {
+  width: 50%;
+  float: right;
+  padding: 2px;
+  height: 100%;
+}
+
+td.myTd {
+  background-color: darkgoldenrod;
+  width: 50%;
+}
+
+th.myTh {
+  background-color: darkgoldenrod;
+  width: 50%;
+}
+
+h5 {
+  font: bold;
+  font-size: x-small;
+}

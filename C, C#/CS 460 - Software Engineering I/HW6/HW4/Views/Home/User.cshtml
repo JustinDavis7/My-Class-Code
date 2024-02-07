@@ -1,0 +1,147 @@
+@model HW4.ViewModels.PersonToDoVM
+@{
+    ViewData["Title"] = "User ToDo's";
+}
+
+@if (Model._user == null)
+{
+    
+    <h1>Sorry, that user doesn't exist!</h1>
+}
+else
+{
+    <div>
+        <div class="row">
+            <div class="col" style="width: 50%;">
+                <h1>To Do's for @Model._user.FirstName @Model._user.LastName</h1>
+                <table  class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Item Name</th><th>Descriptions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if(Model._user.ToDoItems.Count != 0)
+                            {
+                                var items = Model._user.ToDoItems;
+                                @foreach(var item in items)
+                                {
+                                    <tr>
+                                        <td style="width: 30%"><button data-item-id=@item.Id data-item-name="@item.Name" class="btn btn-secondary"/>@item.Name</td><td>@item.Description</td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td>You have no ToDo's!</td>
+                                </tr>
+                            }
+                        </tbody>
+                </table>
+            </div>
+            <div class="col" style="width: 50%;">
+                <h3>Enter a new ToDo Item</h3>
+                <form asp-action="Create" method="post">
+                    <input type="hidden" asp-for="_user.Id" />
+                    <input type="hidden" asp-for="_user.FirstName" />
+                    <input type="hidden" asp-for="_user.LastName" />
+                    <div class="row">
+                        <label asp-for="_item.Name" class="control-label">ToDo Item Name</label>
+                        <input asp-for="_item.Name" class="form-control">
+                        <span asp-validation-for="_item.Name" class="text-danger"></span>
+                    </div>
+                    <div class="row">
+                        <label asp-for="_item.Description" class="control-label">ToDo Item Description</label>
+                        <textarea asp-for="_item.Description" class="form-control"></textarea>
+                        <span asp-validation-for="_item.Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-3 text-center">
+                        <input type="submit" value="Add" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <table id="tasks" class="table table-striped">
+                <h3>Reminders</h3>
+                <tr>
+                <th style="width: 10%;">Task Item</th>
+                <th style="width: 20%;">Completion Date</th>
+                <th>Task Description</th>   
+                </tr>
+                @*Filled in by java*@
+            </table>
+        </div>
+        <div id="taskModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">@*Filled in by JS*@</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form id="create-new-task">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="Start-date" class="control-label">Start Date</label>
+                                    <input id="start-date-input" name="Start-date" class="form-control" type="date" style="width: 450px;" required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="Interval" class="control-label">Interval of Completion</label>
+                                    <input id="interval-input" name="Interval" class="form-control" type="number" min="1" style="width: 450px;" required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label for="Description" class="control-label">Task Description</label>
+                                    <input id="description-input" name="Description" class="form-control" type="text" style="width: 450px; height: 50px;" required />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-group mt-3 text-center">
+                        <input id="add-task-button" type="button" value="Add new task" class="btn btn-info" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default closer" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@if (ViewBag.Message != null)
+{
+    <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorModalLabel">Error</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-danger">@ViewBag.Message</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    @section Scripts {
+    @* Trigger the modal, since it's hidden by default *@
+    <script type="text/javascript">
+        $(document).ready( () => $('#errorModal').modal('toggle') );
+    </script>
+    }
+}
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript" src="~/js/main.js"></script>
+}

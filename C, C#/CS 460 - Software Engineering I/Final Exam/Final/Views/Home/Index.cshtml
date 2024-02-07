@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Final.Models.Country>
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-2">World Cup 2022</h1>
+</div>
+
+<div class="row mt-5">
+    @foreach(var country in Model)
+    {
+        <div class="col text-center mt-4">
+            <div>
+                <a href="../country/@country.Abbreviation"><img src="@country.FlagImageUrl" /></a>
+            </div>
+            <p>@country.FullName</p>
+        </div>
+    }
+</div>

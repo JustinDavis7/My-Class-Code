@@ -1,0 +1,13 @@
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\bin\Debug\netcoreapp3.1\WarClient.exe
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\bin\Debug\netcoreapp3.1\WarClient.deps.json
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\bin\Debug\netcoreapp3.1\WarClient.runtimeconfig.json
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\bin\Debug\netcoreapp3.1\WarClient.runtimeconfig.dev.json
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\bin\Debug\netcoreapp3.1\WarClient.dll
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\bin\Debug\netcoreapp3.1\WarClient.pdb
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\obj\Debug\netcoreapp3.1\WarClient.csprojAssemblyReference.cache
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\obj\Debug\netcoreapp3.1\WarClient.AssemblyInfoInputs.cache
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\obj\Debug\netcoreapp3.1\WarClient.AssemblyInfo.cs
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\obj\Debug\netcoreapp3.1\WarClient.csproj.CoreCompileInputs.cache
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\obj\Debug\netcoreapp3.1\WarClient.dll
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\obj\Debug\netcoreapp3.1\WarClient.pdb
+C:\Users\LPCordova\Source\GitHub\WOU-CS365-OperatingSystems\WarGame\WarClient\obj\Debug\netcoreapp3.1\WarClient.genruntimeconfig.cache

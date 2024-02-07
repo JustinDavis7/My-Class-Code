@@ -1,0 +1,106 @@
+@model HW2.ViewModels.StatsVM;
+@{
+    ViewData["Title"] = "Stats";
+}
+<div class="text-center">
+    <h1 class="display-4">Stats</h1>
+</div>
+<div class="col">
+    <div class="div1">
+        <table class ="table table-sm table-bordered" style="border:5px solid; border-color: #96D4D4; margin: 0 auto; width:60%; float:right;"> 
+            <tr>
+                <td class="myTd">
+                    <h6>Total shows in database: </h6> 
+                </td>
+                <td>
+                    @Model.totalShows
+                </td>
+            </tr>
+            <tr>
+                <td class="myTd">
+                    <h6>Total movies in database: </h6>
+                </td>
+                <td>
+                    @Model.movieCount
+                </td>
+                </tr>
+            <tr>
+                <td class="myTd">
+                    <h6>Total tv shows in database: </h6>
+                </td>
+                <td>
+                    @Model.tvCount   
+                </td>
+            </tr>
+        </table>
+        <table class ="table table-sm table-bordered" style="border:5px solid; border-color: #96D4D4; margin: 0 auto; width:60%; float:right;">
+            <tr>
+                <td class="myTd">
+                    <h6>Actor With Most Appearances: </h6>
+                </td>
+                <td>
+                    @Model.actorWhoOccuredMost
+                </td>
+            </tr>
+            <tr>
+                <td class="myTd">
+                    <h6>Shows With This Actor: </h6>
+                </td>
+                <td>
+                    @Model.actorOccuranceCount
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="div2">
+        <table class="table table-sm table-bordered" style="border:5px solid; border-color: #96D4D4; margin: 0 auto; height: 257px; width:60%; float:left;">
+            <tr>
+                <td class="myTd">
+                    <h6>Highest TMDB Popularity: </h6>
+                </td>
+                <td>
+                    @Model.highestTMDBPop.Title  
+                </td>
+            </tr>
+            <tr>
+                <td class="myTd"> 
+                    <h6>Most IMDB Votes: </h6>
+                </td>
+                <td>
+                    @Model.mostIMBDV.Title  
+                </td>
+            </tr>
+            <tr>
+                <td class="myTd">
+                    <h6>Oldest Show in Collection: </h6>
+                </td>
+                <td>
+                    @Model.oldest.Title  
+                </td>
+            </tr>
+            <tr>
+                <td class="myTd">
+                    <h6>Newest Show in Collection: </h6>
+                </td>
+                <td>
+                    @Model.newest.Title  
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div>
+    <table class ="table table-sm table-bordered" style="border:5px solid; border-color: #96D4D4; margin: 0 auto; width:60%; float:middle;">
+        <th class="myTh">Top 5 Genres</th>
+        <th class="myTh">Number of Shows</th>
+        @{
+            foreach(var genre in Model.top5Genres)
+            {
+                <tr>
+                    <td>@genre.GenreString</td>
+                    <td>@genre.GenreAssignments.Count()</td>
+                </tr>
+            }
+        }
+    </table>
+</div>

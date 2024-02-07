@@ -1,0 +1,15 @@
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\bin\Debug\net6.0\AmusementPark.exe
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\bin\Debug\net6.0\AmusementPark.deps.json
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\bin\Debug\net6.0\AmusementPark.runtimeconfig.json
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\bin\Debug\net6.0\AmusementPark.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\bin\Debug\net6.0\AmusementPark.pdb
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\obj\Debug\net6.0\AmusementPark.csproj.AssemblyReference.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\obj\Debug\net6.0\AmusementPark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\obj\Debug\net6.0\AmusementPark.AssemblyInfoInputs.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\obj\Debug\net6.0\AmusementPark.AssemblyInfo.cs
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\obj\Debug\net6.0\AmusementPark.csproj.CoreCompileInputs.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\obj\Debug\net6.0\AmusementPark.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\obj\Debug\net6.0\refint\AmusementPark.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\obj\Debug\net6.0\AmusementPark.pdb
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\obj\Debug\net6.0\AmusementPark.genruntimeconfig.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\AmusementPark Demo\AmusementPark\AmusementPark\obj\Debug\net6.0\ref\AmusementPark.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Coordinator.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "Coordinator.Lib": "1.0.0"
+        },
+        "runtime": {
+          "Coordinator.ConsoleApp.dll": {}
+        }
+      },
+      "Coordinator.Lib/1.0.0": {
+        "runtime": {
+          "Coordinator.Lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Coordinator.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coordinator.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

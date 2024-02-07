@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Interpolate from one color to another";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Please enter colors in HTML hexadecialm format: #AABBCC</p>
+
+<label for="1">First Color</label><br>
+<input type="number" id="1" name="First"><br>
+<label for="2">Second Color</label><br>
+<input type="number" id="2" name="Second"><br>
+<label for="noc">Number of Colors</label><br>
+<input type="number" id="noc" name="Number"><br>
+<a href="#" class=" btn btn-primary" onclick="generate_colors()">Generate Colors</a>

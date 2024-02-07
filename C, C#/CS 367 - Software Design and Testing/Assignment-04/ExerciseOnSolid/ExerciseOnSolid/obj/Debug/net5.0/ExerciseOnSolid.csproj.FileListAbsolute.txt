@@ -1,0 +1,16 @@
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\bin\Debug\net5.0\ExerciseOnSolid.exe
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\bin\Debug\net5.0\ExerciseOnSolid.deps.json
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\bin\Debug\net5.0\ExerciseOnSolid.runtimeconfig.json
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\bin\Debug\net5.0\ExerciseOnSolid.runtimeconfig.dev.json
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\bin\Debug\net5.0\ExerciseOnSolid.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\bin\Debug\net5.0\ref\ExerciseOnSolid.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\bin\Debug\net5.0\ExerciseOnSolid.pdb
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\obj\Debug\net5.0\ExerciseOnSolid.csprojAssemblyReference.cache
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\obj\Debug\net5.0\ExerciseOnSolid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\obj\Debug\net5.0\ExerciseOnSolid.AssemblyInfoInputs.cache
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\obj\Debug\net5.0\ExerciseOnSolid.AssemblyInfo.cs
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\obj\Debug\net5.0\ExerciseOnSolid.csproj.CoreCompileInputs.cache
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\obj\Debug\net5.0\ExerciseOnSolid.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\obj\Debug\net5.0\ref\ExerciseOnSolid.dll
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\obj\Debug\net5.0\ExerciseOnSolid.pdb
+C:\Users\strik\Desktop\CS 367\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\Assignment-04\ExerciseOnSolid\ExerciseOnSolid\obj\Debug\net5.0\ExerciseOnSolid.genruntimeconfig.cache

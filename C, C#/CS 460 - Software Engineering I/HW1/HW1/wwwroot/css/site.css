@@ -1,0 +1,53 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.myDiv{
+  background-color: #90C7E3;
+  background-image: linear-gradient(to top, #90C7E3, #00a6ff);
+  padding: 2em;
+  border-radius: 4px;
+  width: 300px;
+}
+
+h2{
+  text-align: center;
+  font-size: x-large;
+  background-image: linear-gradient(to left, #00ff2669, #00ff26,#00490b);
+  border-radius: 4px;
+  width: 230px;
+}
+
+.column{
+  padding-bottom: 2em;
+  padding-right: 2em;
+  float: left;
+}
+
+.button{
+  text-align: center;
+  border: 2px solid #00a6ff;
+  background-color: white;
+  color: #00a6ff;
+}
+
+.myRow{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100em;
+}

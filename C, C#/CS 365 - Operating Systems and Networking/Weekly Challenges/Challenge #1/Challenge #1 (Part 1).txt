@@ -1,0 +1,81 @@
+1. What is the purpose of system calls?
+    A system call exists so that a user can access the resources on a computer. Be it accessing something stored on the hard drive, creating a new file, starting a piece of software, or dealing with errors,
+    a system call gets the user access to the needed parts of a computer that the general user would have no clue about accessing, in order to make things work. 
+
+2. What is the purpose of the command interpreter? Why is it usually separate from the kernel?
+    The command interpreter allows a user to input a line of code or a command, that gives them more control over the computer system than simply accessing a program the traditional way of clicking an icon.
+    It can allow much more to be done, such as monitoring temperatures of various components in the comptuer without the aid of outside software (I actually use it to monitor the power draw of my GPU from 
+    time-to-time). 
+    
+    The command interpreter is prone to changes overtime. If a new instruction needs to be made available, then the interpreter will need to be adjusted to allow for that. Other changes could be made as well.
+    This is the reason why it is kept separate from the kernel. The kernel is the core of a computers OS. If something inside of the kernel was constantly being changed, it would potentially lead to severe
+    operational problems, making the computer very unstable and prone to crashes. Windows updates don't happen that often and they frequently break entire computer systems as is.
+    
+3. What system calls have to be executed by a command interpreter or shell in order to start a new process on a UNIX system?
+    In order to start a new process from the command interpreter on a UNIX system, you have to use the command fork(). This command behaves the same way as CreateProcess() on Windows, but is named differently.
+    When the fork() command is used, the system will know to break off of the currently running program and create a new instance and start again.
+    
+4. What is the purpose of system programs?
+    A system program is basically the thing that allows a computer to work. An OS is a system program, and without it, one could literally not use a computer in the general sense of how they are used by most
+    people. Instead of getting a nice visual representation of all the icons and actions a user can take on a computer, they would have to put in lines of code to get anything done. System programs also handle
+    things like networking, which would be very difficult for the average user, even and advanced user, to properly set up on their own without the help of a system program.
+    
+5. What is the main advantage of the layered approach to system design? What are the disadvantages of the layered approach?
+    In the layered approach to system designing, the main advantage lies in making changes to the system. In a system that doesn't use the layered approach, a monolithic approach, a small change in one part of
+    the system could cause all kinds of issues throughout the entire system. That can't happen in the layered approach, because the parts are all isolated from eachother. They can interact with eachother to get
+    jobs done, but they don't directly influence other pieces of the code, therefore making it much easier to adjust a small piece of code without breaking the entire system. If a user swapped out the RAM, or 
+    added more RAM, they should only see a performance change (hopefully a positive one so long as they did it right and used the right parts). If a user swapped out two sticks of RAM and suddenly the computer
+    would no longer start up or crashed constantly because an internal program only accepted the original stick, that would be a huge problem. With the layered approach, the system only needs to know that it has
+    the correct type of RAM stick in it, and then it can go on with it's work like nothing happened. Along those same lines, finding out what is wrong with system becomes much easier as well. Since the various 
+    layers of the system are separated, you only need to start at the highest layer of the problem and work your way down to find the issue. If there's an issue with a component not operating, you don't have 
+    to worry about a program or action of a user causing the problem and it's most likely directly related to the part failing.
+    
+    A big disadvantage of the layered system is how much overhead is required to get anything done. For a user to see what's happening with a piece of hardware, such as temperature monitoring (I think), a user
+    needs to have a piece of software that can get through all of the layers of the system, and down to the hardware layer just to see the readout on the highest layer of the user interface. It also is difficult
+    to determine where one layer ends and the next begins. It's easy to say that layer 0 is all of the physical parts, and the next layer is everything else, but the everything else needs to be split up as well.
+    Where exactly does the user interface end in relation to the programs that put it up on the screen and wait for a response? It's not a simple task to just divide up the system into perfect layers. 
+    
+6. List five services provided by an operating system, and explain how each creates convenience for users. In which cases would it be impossible for user-level programs to provide these services? Explain your answer.
+    1. File Management
+        A file managment service allows a user to easily create, delete, edit, and access a file. Without a file management service, a user would need to know how to access memeory directly and tell the computer 
+        which address in the memory to go to in order to get a file. Then they would need to know how to command the system to make a change to the file. Just getting access to a file on your own without a service
+        would be hard enough, and that's why this type of service exists. All a user needs to do is click on the file icon, and the service will know how to find the file on the drive, pull the data, and display it,
+        allowing a user to make any changes they desire.
+        
+    2. Status Information
+        This type of service is extreemly useful for monitoring a system and seeing how everything is doing. Imagine trying to determine how hard your CPU or GPU is working to run Minecraft. Sure, if the game was 
+        running smooth you would assume they are having an easy time, and when you started to lag or experience issues you could assume that your computer was struggeling. But how much of your CPU and GPU is really
+        being used? Or, how hot are those components getting, and are they working within the ok temperatures? So maybe temperature could be determined by pointing a laser thermometer at the GPU, but that's not 
+        going to be a very accurate temperature for all of the parts on the GPU. In order to see this kind of information, a user needs a service that is keeping track of it and has the ability to display it.
+        If we didn't have these kinds of services, then we would never know if we were pushing a piece of our computer too hard, which could very likely damage or completely break it. Just think of Amazon's game 
+        that launched a few months ago that was causing GPU's to run at 130% of their max voltage while the game was just starting up... even with this type of service hundreds of GPU's were totally fried.
+        
+    3. File Modification
+        This service is identical to the File Management service. File Modificaiton services allow a user to easily edit a file that is stored on the disk. Without it, the user would need to know, once again,
+        how to access the disk directly and make it perform changes to a desired file. 
+        
+    4. Programming-language Support
+        A Programming-languge Support service allows a user to code. Things such as compilers, assembles, debuggers, and interpreters are provided to allow a user to develop software. Without this type of service,
+        a user would have no way to properly test a program to make sure it is working in the intended way before deploying it to the world. That's only if they could even make a program in the first place without
+        this service. Sure, a user could write code in a text file and it may be perfect and run exactly as intended without any kind of testing... but that doesn't really happen so this service is needed to provide
+        a coder with the tools they need to develop programs.
+        
+    5. Program Loading and Execution
+        This service is what allows a program to be ran. It handles loading the program into memory to make it available for running on the CPU. It handles the conversion of a program into machine code so that it
+        can be understood by the components of a computer. Without it, a user would need to know how to code machine language, and how to access the drive directly as well as the RAM.
+        
+    Any opertaion that handles the hardware resources would be impossible to do from a user-level program. The ammount of connections that would need to be made and maintained, the transfer of data to and from
+    the disk, memory, CPU, and GPU, would just be insane to try and handle without this service. File management, status information, file modifications, and program loading and execution would all be affected by
+    this issue. I believe that programming-language support would also be here, since it would need to access some kind of command connection between the code and hardware to make anything happen.
+    
+7. Why do some systems store the operating system in firmware, while others store it on disk?
+    In specific systems such as mobile devices, they may not actually have a disk. In this case, the OS would have to be stored in firmware while a desktop computer could store it on an available disk.
+    
+8. How could a system be designed to allow a choice of operating systems from which to boot? What would the bootstrap program need to do?
+    The simplest way I know of to achieve this would be to have two seperate drives, one for each OS, and then tell the computer when it turned on which drive to boot from. This action would be handled by the boot 
+    manager, which would allow the choice of which OS to boot from. I assume you could store both of these OS on the same drive so long as you had enough space to allocate to each OS for everything they needed,
+    but I've never tried to do this.
+    
+    
+    
+    

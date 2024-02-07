@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aif9B3KiNKRiaoQl/0G5WSKiYS+WwlSI37RJVD4UFl46aOMjTz2/qv5qoatPZcONvMujDhRq2JKsasa6FHzLpw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-06\\ProductInventory\\ProductInventory.Model\\ProductInventory.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

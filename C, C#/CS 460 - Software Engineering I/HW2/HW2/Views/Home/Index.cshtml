@@ -1,0 +1,30 @@
+﻿@model HW2.ViewModels.StatsVM
+@{
+    ViewData["Title"] = "HW2";
+}
+
+<div class="text-center">
+    <h1>Find the highest rated Show or Movie on IMDB</h1>
+    
+    <form asp-action="Rating" method="post">
+        <div class="row">
+            <div class="col">
+                <label asp-for="genreChoice" class="control-label">Pick Genre</label>
+                <select asp-for="genreChoice" asp-items="@Model.allGenres"></select>     
+                <span asp-validation-for="genreChoice" class="text-danger"></span>           
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label asp-for="pickedType" class="control-label" style="padding-top: 40px; padding-right: 10px;">Search in:</label>
+                Tv Shows
+                <input type="radio" id="pickedType" name="pickedType" value=1>
+                Movies
+                <input type="radio" id="pickedType" name="pickedType" value=2>
+            </div>
+        </div>
+        <div class="form-group mt-3 text-center">
+            <input type="submit" value="Search" class="btn btn-primary">
+        </div>
+    </form>
+</div>

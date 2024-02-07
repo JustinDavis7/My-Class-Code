@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lighthouse Bistro</title>
+<meta charset="utf-8">
+<style>
+
+
+
+		
+* { box-sizing: border-box; margin: 0; }
+body {font-family:Verdana, Arial, sans-serif; }
+nav ul { list-style-type: none;
+         padding: 1em; }
+nav a { text-decoration: none;
+        padding: 1em;
+		font-weight: bold;
+}
+header { background-color: #869DC7;
+        color: #00005D; 
+		background-image: url(light.gif); 
+		background-repeat: no-repeat;
+		padding: 2em 0 2em 10em;
+		font-size: 120%;
+}
+h2 { color: #869dc7; 
+     font-family: arial, sans-serif;
+}
+nav { float: left; }
+main{ padding: 1em; }
+aside { float: right; padding: 1em; }
+figure { text-align: center; }
+figcaption { font-style: italic; text-align: center;}
+footer { background-color: #869DC7;
+         font-size:70%;
+         text-align: center;
+         padding: 2em;
+		 clear: both;
+}
+header, main, nav, figure, footer { display: block; }
+    
+    #content 
+    {
+        display: flex;
+    }
+    nav
+    {
+        flex: none;
+        background-color: #B3C7E6;
+        order: 1;
+    }
+    main
+    {
+        flex: 6;
+        min-width: 20em;
+        background-color: #FFFFFF;
+        order: 2;
+    }
+    aside
+    {
+        flex 4;
+        background-color: #EAEAEA;
+        order: 3;
+    }
+    
+</style> 
+</head>
+<body>
+  <header>
+    <h1>Lighthouse Bistro</h1>
+  </header>
+  <div id="content">
+    <nav>
+	<ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="rooms.html">Menu</a></li>
+      <li><a href="directions.html">Directions</a></li>
+      <li><a href="contact.html">Contact</a></li>
+	 </ul>
+    </nav>
+   <aside>
+       <figure>
+         <img src="lighthouse.jpg" width="250" height="355" id="floatright" alt="Lighthouse Island">
+         <figcaption>Cana Island Lighthouse</figcaption>
+	   </figure>
+   </aside>
+  <main> 
+     <h2>Locally Roasted Free-Trade Coffee</h2>
+    <p>Indulge in the aroma of freshly ground roast coffee. Specialty drinks are available hot or cold.</p>
+    <h2>Specialty Pastries</h2>
+    <p>Enjoy a selection of our fresh-baked, organic pastries, including 
+  fresh-fruit muffins, scones, croissants, and cinnamon rolls.</p>
+  	<h2>Lunchtime is Anytime</h2>
+    <p>Savor delicious wraps and sandwiches on hearty, whole-grain breads with locally-grown salad, fruit, and vegetables. </p>
+    <h2>Panoramic View</h2>
+	<p>Take in some scenery! The top of our lighthouse offers a panoramic view of the countryside. Challenge your friends to climb our 100-stair tower.</p>
+ </main>
+
+   </div>
+     <footer>Copyright &copy; 2020     </footer>
+</body>
+</html>
+
+

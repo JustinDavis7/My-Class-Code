@@ -1,0 +1,34 @@
+@model FinalProject.Models.MenuResponses
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <title>Food Menu</title>
+</head>
+<body>
+    <h6 class="bg-primary text-white text-center m-2 p-2">Food Menu</h6>
+    <form asp-action="Menu" method="post" class="m-2">
+        <div asp-validation-summary="All"></div>
+        <div class="form-group">
+            <label asp-for="Name">Your name:</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Food">Your desired food choice:</label>
+            <input asp-for="Food" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-secondary">Submit Food Choices</button>
+    </form>
+</body>
+<footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - FinalProject - <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        </div>
+</footer>
+</html>

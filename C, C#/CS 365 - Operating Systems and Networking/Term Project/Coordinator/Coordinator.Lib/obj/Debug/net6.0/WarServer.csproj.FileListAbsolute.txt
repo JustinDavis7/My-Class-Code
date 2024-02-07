@@ -1,0 +1,15 @@
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\bin\Debug\net6.0\WarServer.exe
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\bin\Debug\net6.0\WarServer.deps.json
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\bin\Debug\net6.0\WarServer.runtimeconfig.json
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\bin\Debug\net6.0\WarServer.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\bin\Debug\net6.0\WarServer.pdb
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\net6.0\WarServer.csproj.AssemblyReference.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\net6.0\WarServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\net6.0\WarServer.AssemblyInfoInputs.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\net6.0\WarServer.AssemblyInfo.cs
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\net6.0\WarServer.csproj.CoreCompileInputs.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\net6.0\WarServer.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\net6.0\refint\WarServer.dll
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\net6.0\WarServer.pdb
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\net6.0\WarServer.genruntimeconfig.cache
+C:\Users\strik\Desktop\w22-cs365-repo-JustinDavis7\Challenge #5\WarServer\obj\Debug\net6.0\ref\WarServer.dll

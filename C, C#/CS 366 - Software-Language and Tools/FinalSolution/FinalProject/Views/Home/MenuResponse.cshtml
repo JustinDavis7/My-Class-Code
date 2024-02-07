@@ -1,0 +1,27 @@
+@model FinalProject.Models.MenuResponses
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thanks</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body class="text-center">
+    <div>
+        <h1>Thank you, @Model.Name!</h1>
+        We will be sure to add @Model.Food to our menu options for you!
+    </div>
+    Click <a asp-action="MenuList"> here</a> to see what other foods have been requested.<br>
+</body>
+<footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - FinalProject - <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        </div>
+</footer>
+</html>

@@ -1,0 +1,144 @@
+﻿@model Final.ViewModels.CountryPageVM
+@* **********************************************
+   You may not change the model for this page.  You must use the given view model
+   **********************************************
+*@
+@{
+    ViewData["Title"] = "Country";
+}
+
+@* **********************************************
+   Complete this view to finish the Country page 
+   **********************************************
+*@
+<div class="country" style="display:none">@Model.Country.Abbreviation</div>
+<div class="text-center">
+    @* Country name goes here *@
+    <h1 class="display-2">@Model.Country.FullName</h1>
+    @* Flag image goes here *@
+    <img src="@Model.Country.FlagImageUrl"/>
+    <img />
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>Goalkeeper</h2>
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Height</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Club Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                @* Table body for goalkeepers goes here *@
+                @{
+                    foreach(var goalie in Model.Goalkeepers)
+                    {
+                        <tr>
+                            <td>@goalie.FullName</td>
+                            <td>@goalie.Height</td>
+                            <td>@goalie.Age</td>
+                            <td>@goalie.ClubTeam.Name</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+        <h2>Defender</h2>
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Height</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Club Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                @* Table body for defenders goes here *@
+                @{
+                    foreach(var defender in Model.Defenders)
+                    {
+                        <tr>
+                            <td>@defender.FullName</td>
+                            <td>@defender.Height</td>
+                            <td>@defender.Age</td>
+                            <td>@defender.ClubTeam.Name</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+        <h2>Midfielder</h2>
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Height</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Club Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                @* Table body for midfielders goes here *@
+                @{
+                    foreach(var midfielder in Model.Midfielders)
+                    {
+                        <tr>
+                            <td>@midfielder.FullName</td>
+                            <td>@midfielder.Height</td>
+                            <td>@midfielder.Age</td>
+                            <td>@midfielder.ClubTeam.Name</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+        <h2>Forward</h2>
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Height</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Club Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                @* Table body for forwards goes here *@
+                @{
+                    foreach(var forward in Model.Forwards)
+                    {
+                        <tr>
+                            <td>@forward.FullName</td>
+                            <td>@forward.Height</td>
+                            <td>@forward.Age</td>
+                            <td>@forward.ClubTeam.Name</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+    @* This section is for the last problem, AJAX *@
+    <div class="col-md-2">
+        <div class="card card-custom">
+            <div class="card-body">
+                <h3 class="card-title">Results</h3>
+                <ul class="list-unstyled">
+                    <li>Wins  : <span class="wins">@*put # of wins here*@</span></li>
+                    <li>Losses: <span class="losses">@*put # of losses here*@</span></li>
+                    <li>Draws : <span class="draws">@*put # of draws here*@</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts 
+{
+    <script type="text/javascript" src="~/js/main.js"></script>
+}

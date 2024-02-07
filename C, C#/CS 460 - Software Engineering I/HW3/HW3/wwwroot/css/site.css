@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+a:link, a:visited, a:active, a:hover {
+  text-decoration: none;
+  color: #017465;
+}
+
+button {
+  border: #000;
+  outline: auto;
+  outline-color: gray;
+  width: 80%;
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #000;
+}
+
+ul, li {
+  list-style-type: none;
+}

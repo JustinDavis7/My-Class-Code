@@ -1,0 +1,58 @@
+*Work load differences
+-Data Warehouse
+	-Analytics, reporting, big data
+-Database
+	-Transaction processing
+
+*Source of data
+-DW
+	-Collected and normalized from many sources
+-DB
+	-Taken as-is from a single source like a transactional system
+
+*Data Capture
+-DW
+	-Written in large batches that are set to happen on a schedule
+-DB
+	-As new data becomes available, it is written in real time to increase throughput of data
+
+*Data Normalization
+-DW
+	-Uses denormalized schemas such as Snowflake
+		-This allows a business to perform complex queries on data that contains repeated entries in a fast manner since queriying a normalized DB can be slow.
+		-Allows for complex analytical queries in a straightforward manner. It is easier to perform these analysis on a Data Warehouse and this type of data 
+			is much more useful since the time frame of the data capture is drawn out. 
+-DB
+	-Uses highly normalized and static schemas
+		-This allows the same amount of data to take up a very small portion of storage, making it very memory efficient but slow to work with at times.
+		-This also prevents a deep analysis of data since it stores snapshots of current data instead of consistent long term data.
+
+*Data Storage
+-DW
+	-Optimized for easy and fast access queries that use columnar storage
+-DB
+	-Optimized for throughput writing to a single row-oriented physical block of data
+
+*Data Access
+-DW
+	-Optimized for maximum throughput and limited I/O
+	-Only supports a small numbers of concurrent users, and is separated from front-end applications. The queries are computationally expensive as well,
+		further limiting the number of concurrent users.
+-DB
+	-Uses high volumes of smaller read operations
+	-Can support thousands of users simultaniously, but only one user can modify a piece of data at a time.
+	
+
+*OLAP vs OLTP
+-DW uses OLAP (OnLine Analytical Processing) to analyze massive volumes of data quickly
+	-Use case examples: Organizing customers into groups based on their past purchases, forcasting demand and sales to decide on a focus of the business in the future
+-DB uses OLTP (OnLine Transactional Processing) to delete, insert, replace, and update large numbers of brief online transactions in a short amount of time.
+	-Use case examples: Reserving a hotel room via an online booking form, patient registration in a hospital, ATM withdrawal from an account
+
+*Databases can be object-oriented while a Data Warehouse is subject-oriented.
+	-A Database stores info about one part of the business, while a Data Warehouse puts all of the info about the business together in one place.
+	-A Data Warehouse also stores historical data that isn't updated in real-time where as a Database stores current data that is updated constantly.
+
+*Data Warehouses lend themselves to analysis of large amounts of data while a Database works better with smaller chunks.
+
+*A Database will have a 99% uptime while a Data Warehouse will have to use built-in downtimes to allows for periodic uploads of new data.

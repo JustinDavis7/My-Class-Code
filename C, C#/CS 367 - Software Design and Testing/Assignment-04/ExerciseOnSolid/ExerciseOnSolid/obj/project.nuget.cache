@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "0VxNlxnjFR5doEQRV8nq18ujS5jBw7MbRm8Y0fNU6R9NTi1oeF3Vm26qy/hzzXHPdj3OFPDGW/7OoRh9ALcEQA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\strik\\Documents\\Class Folders\\CS 367\\s21-cs367-softwaredesignandtesting-repo-JustinDavisWOU\\Assignment-04\\ExerciseOnSolid\\ExerciseOnSolid\\ExerciseOnSolid.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\strik\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
